@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    font-family: Georgia;
+    margin-bottom: 20px;
+}
+header{
+    margin: 0px;
+    height: 70px;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgb(207, 255, 168), white,  rgb(207, 255, 168));
+}
+.pottery{
+     background-image: linear-gradient(to right,white,  rgb(207, 255, 168),white);
+     font-size: 20px;
+}
+.gallery {
+    display: flex;
+    width:900px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 250px;
+    height: 300px;
+}
+
+.gallery img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    height: 300px;
+    width: 250px;
+    padding: 5px;
+    transition:0.5s ease-out ;
+}
+.ivanenko{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(207, 255, 168),rgb(240, 240, 240));;  
+}
+.school {
+    float: left;
+    height: 100px;
+    width: 900px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double rgb(120, 216, 107);
+    margin: 40px 0px 40px 80px;    
+    background-color: rgb(255, 255, 255);
+    
+}
+h2{
+    
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia;
+    background-color:rgb(202, 226, 199);
+}
+.teacher {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.teacher-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.teacher h2 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.teacher-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.teacher-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.teacher-description p {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 10px auto;
+}
+.nav-link{
+  background-color:#afebb4; 
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px; 
+            margin: 10px 60px 10px 10px;
+              border: 3px solid rgb(112, 209, 125);
+            font-size: 25px;
+}
+.nav-link:hover{
+box-shadow: 3px 5px 10px rgb(62, 226, 149);  
+
+
+}
